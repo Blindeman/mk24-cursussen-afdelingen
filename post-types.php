@@ -4,7 +4,7 @@
  * GitHub Plugin URI: https://github.com/Blindeman/mk24-cursussen-afdelingen
  * Description: Hiermee worden de 'cursus' post type en 'afdeling' taxonomy geregistreerd.
  * Author: Naomi Blindeman
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author URI: http://blindemanwebsites.com
  * License: GPLv2
 */
@@ -70,7 +70,8 @@ function mk24_cursus_post_types() {
 		'public' => true,
 		'publicly_queryable' => true,
 		'show_ui' => true, 
-		'show_in_menu' => true, 
+		'show_in_menu' => true,
+		'show_in_rest' => true,
 		'query_var' => true,
 		'rewrite' => true,
 		'capability_type' => 'post',
