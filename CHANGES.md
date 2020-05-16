@@ -1,3 +1,6 @@
+### 1.0.3 / May 16, 2020
+* Added support for Gutenberg to Afdelingen
+
 ### 1.0.2 / May 6, 2020
 * Added support for Gutenberg to Cursussen
 
