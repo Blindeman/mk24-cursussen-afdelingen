@@ -45,6 +45,8 @@ function ak_create_cursus_taxonomies() {
 			'show_in_rest' => true,
 			'query_var' => true,
 			'rewrite' => array( 'slug' => 'afdeling' ),
+			'show_admin_column' => true,
+			'show_in_quick_edit' => true,
 		)
 	);
 }
